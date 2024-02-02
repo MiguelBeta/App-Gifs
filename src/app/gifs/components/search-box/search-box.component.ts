@@ -15,7 +15,7 @@ import { GifsService } from '../../services/gifs.service';
   `
 })
 
-export class SerchBoxComponent {
+export class SearchBoxComponent {
 
   @ViewChild('txtTagInput')
   public tagInput!: ElementRef<HTMLInputElement>;
